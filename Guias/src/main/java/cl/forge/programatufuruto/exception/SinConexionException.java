@@ -2,7 +2,7 @@ package cl.forge.programatufuruto.exception;
 
 public class SinConexionException extends Exception {
 
-    SinConexionException(String s){
+    public SinConexionException(String s){
         super(s);
     }
 }

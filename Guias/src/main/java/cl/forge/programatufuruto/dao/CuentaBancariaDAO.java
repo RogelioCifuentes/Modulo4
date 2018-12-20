@@ -9,7 +9,7 @@ public class CuentaBancariaDAO {
 
     private PreparedStatement psInsertar;
     private Statement statement;
-    Conexion conexion = new Conexion();
+    Conexion conexion;
 
     public void insertarCuentaBancaria(CuentaBancaria o) {
 

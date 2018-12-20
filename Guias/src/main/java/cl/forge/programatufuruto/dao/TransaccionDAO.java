@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 public class TransaccionDAO {
 
-    Conexion conexion = new Conexion();
+    Conexion conexion;
     private Statement statement;
     private PreparedStatement psInsertar;
 
