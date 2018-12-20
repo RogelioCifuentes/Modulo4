@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 public class TransaccionDAO {
 
-    Conexion conexion;
+    Conexion conexion = new Conexion(); //Si se borra el = new Conexion() tira nullPointerException
     private Statement statement;
     private PreparedStatement psInsertar;
 
